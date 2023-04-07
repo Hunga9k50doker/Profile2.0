@@ -68,18 +68,18 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,
@@ -120,14 +120,14 @@ const technologies = [
     name: "NextJS",
     icon: nextjs,
   },
-  // {
-  //   name: "Third Web",
-  //   icon: thirdweb,
-  // },
-  // {
-  //   name: "Solodity",
-  //   icon: solodity,
-  // },
+  {
+    name: "Third Web",
+    icon: thirdweb,
+  },
+  {
+    name: "Solodity",
+    icon: solodity,
+  },
 ];
 
 const experiences = [
