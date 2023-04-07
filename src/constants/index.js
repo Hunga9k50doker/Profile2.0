@@ -121,10 +121,6 @@ const technologies = [
     icon: nextjs,
   },
   {
-    name: "ThreeJs",
-    icon: nextjs,
-  },
-  {
     name: "Third Web",
     icon: thirdweb,
   },
