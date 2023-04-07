@@ -112,22 +112,22 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "NextJS",
     icon: nextjs,
   },
-  {
-    name: "Third Web",
-    icon: thirdweb,
-  },
-  {
-    name: "Solodity",
-    icon: solodity,
-  },
+  // {
+  //   name: "Third Web",
+  //   icon: thirdweb,
+  // },
+  // {
+  //   name: "Solodity",
+  //   icon: solodity,
+  // },
 ];
 
 const experiences = [
