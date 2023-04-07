@@ -13,6 +13,8 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  solodity,
+  thirdweb,
   git,
   figma,
   docker,
@@ -56,12 +58,12 @@ const services = [
   {
     title: "Web3 Developer",
     icon: creator,
-    disabled: true,
+    disabled: false,
   },
   {
     title: "Backend Developer",
     icon: backend,
-    disabled: true,
+    disabled: false,
   },
 ];
 
@@ -118,17 +120,29 @@ const technologies = [
     name: "NextJS",
     icon: nextjs,
   },
+  {
+    name: "ThreeJs",
+    icon: nextjs,
+  },
+  {
+    name: "Third Web",
+    icon: thirdweb,
+  },
+  {
+    name: "Solodity",
+    icon: solodity,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "FrontEnd Developer",
     company_name: "Pixelcent",
     icon: pixelcent,
     iconBg: "#383E56",
     date: "July 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Next.Js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
