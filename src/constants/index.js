@@ -243,7 +243,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "notdejs",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -256,7 +256,7 @@ const projects = [
   },
   {
     name: "Travel website",
-    url: "https://setail.vercel.app/",
+    url: "https://setail.onrender.com",
     description: "Personal project",
     tags: [
       {
@@ -264,11 +264,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
