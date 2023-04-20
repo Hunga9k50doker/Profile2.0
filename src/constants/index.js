@@ -57,11 +57,11 @@ const services = [
   //   icon: mobile,
   //   disabled: true,
   // },
-  {
-    title: "Web3 Developer",
-    icon: creator,
-    disabled: false,
-  },
+//   {
+//     title: "Web3 Developer",
+//     icon: creator,
+//     disabled: false,
+//   },
   {
     title: "Backend Developer",
     icon: backend,
@@ -122,14 +122,14 @@ const technologies = [
     name: "NextJS",
     icon: nextjs,
   },
-  {
-    name: "Third Web",
-    icon: thirdweb,
-  },
-  {
-    name: "Solodity",
-    icon: solodity,
-  },
+//   {
+//     name: "Third Web",
+//     icon: thirdweb,
+//   },
+//   {
+//     name: "Solodity",
+//     icon: solodity,
+//   },
 ];
 
 const experiences = [
