@@ -7,7 +7,7 @@ import {
   typescript,
   html,
   css,
-  reactjs,
+  reactjs as react,
   nextjs,
   redux,
   tailwind,
@@ -15,6 +15,7 @@ import {
   mongodb,
   solodity,
   thirdweb,
+  crowdfunding,
   git,
   figma,
   docker,
@@ -24,6 +25,7 @@ import {
   shopify,
   pixelcent,
   priceguide,
+  searchjob,
   cimigo,
   travel,
   threejs,
@@ -85,8 +87,8 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "React",
+    icon: react,
   },
   {
     name: "Redux Toolkit",
@@ -243,7 +245,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -257,7 +259,8 @@ const projects = [
   {
     name: "Travel website",
     url: "https://setail.onrender.com",
-    description: "Personal project",
+    description:
+      "[Personal project] A website allows users to search for information about tours, leave reviews, and manage records of tours they have booked. There is also a dashboard that allows admins to perform CRUD operations on the necessary information on the website",
     tags: [
       {
         name: "rectjs",
@@ -274,6 +277,48 @@ const projects = [
     ],
     image: travel,
     source_code_link: "https://github.com/Hunga9k50doker/Setail",
+  },
+  {
+    name: "Crowdfunding",
+    url: "https://crowdfunding-2uux.onrender.com/",
+    description: "[Personal project] The crowdfunding web3",
+    tags: [
+      {
+        name: "rect-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "third-web",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solodity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crowdfunding,
+    source_code_link: "https://github.com/Hunga9k50doker/cowdfunding",
+  },
+  {
+    name: "Search Job",
+    url: "https://expo.dev/@hunga9k50doker/jobsift?serviceType=classic&distribution=expo-go",
+    description: "[Personal project] The app help searching for jobs near you. Apply job",
+    tags: [
+      {
+        name: "rect-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rapid-api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: searchjob,
+    source_code_link: "https://github.com/Hunga9k50doker/app-job",
   },
 ];
 

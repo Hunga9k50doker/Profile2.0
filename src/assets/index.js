@@ -33,6 +33,8 @@ import pixelcent from "./company/pixelcent.png";
 import priceguide from "./p_01.jpg";
 import cimigo from "./p_02.png";
 import travel from "./p_03.jpg";
+import searchjob from "./p_04.jpg";
+import crowdfunding from "./p_05.png";
 
 export {
   logo,
@@ -58,11 +60,13 @@ export {
   typescript,
   threejs,
   meta,
+  crowdfunding,
   pixelcent,
   shopify,
   starbucks,
   tesla,
   priceguide,
+  searchjob,
   cimigo,
   travel,
   thirdweb,
