@@ -35,6 +35,7 @@ import cimigo from "./p_02.png";
 import travel from "./p_03.jpg";
 import searchjob from "./p_04.jpg";
 import crowdfunding from "./p_05.png";
+import jewelry from "./p_06.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   travel,
   thirdweb,
   solodity,
+  jewelry,
 };

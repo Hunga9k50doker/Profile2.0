@@ -29,6 +29,7 @@ import {
   cimigo,
   travel,
   threejs,
+  jewelry,
 } from "../assets";
 
 export const navLinks = [
@@ -255,6 +256,28 @@ const projects = [
     ],
     image: cimigo,
     source_code_link: "https://github.com/Hunga9k50doker/Cimigo",
+  },
+  {
+    name: "Jewelry website",
+    url: "https://jewelry.onrender.com/",
+    description:
+      "[Personal project] A website allows users to search for information about jewelry, leave reviews, and manage records of tours they have order. There is also a dashboard that allows admins to perform CRUD operations on the necessary information on the website",
+    tags: [
+      {
+        name: "rectjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jewelry,
+    source_code_link: "https://github.com/Hunga9k50doker/Shop-trang-suc",
   },
   {
     name: "Travel website",
