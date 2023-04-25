@@ -301,27 +301,27 @@ const projects = [
     image: travel,
     source_code_link: "https://github.com/Hunga9k50doker/Setail",
   },
-  {
-    name: "Crowdfunding",
-    url: "https://crowdfunding-2uux.onrender.com/",
-    description: "[Personal project] The crowdfunding web3",
-    tags: [
-      {
-        name: "rect-js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "third-web",
-        color: "green-text-gradient",
-      },
-      {
-        name: "solodity",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: crowdfunding,
-    source_code_link: "https://github.com/Hunga9k50doker/cowdfunding",
-  },
+//   {
+//     name: "Crowdfunding",
+//     url: "https://crowdfunding-2uux.onrender.com/",
+//     description: "[Personal project] The crowdfunding web3",
+//     tags: [
+//       {
+//         name: "rect-js",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "third-web",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "solodity",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: crowdfunding,
+//     source_code_link: "https://github.com/Hunga9k50doker/cowdfunding",
+//   },
   {
     name: "Search Job",
     url: "https://expo.dev/@hunga9k50doker/jobsift?serviceType=classic&distribution=expo-go",
