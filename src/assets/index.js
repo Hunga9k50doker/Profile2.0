@@ -13,6 +13,8 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import antd from "./tech/antd.png";
+import mui from "./tech/mui.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -29,6 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import pixelcent from "./company/pixelcent.png";
+import vietdev from "./company/vietdev.png";
 
 import priceguide from "./p_01.jpg";
 import cimigo from "./p_02.png";
@@ -36,6 +39,7 @@ import travel from "./p_03.jpg";
 import searchjob from "./p_04.jpg";
 import crowdfunding from "./p_05.png";
 import jewelry from "./p_06.png";
+import topbongda from "./p_07.png";
 
 export {
   logo,
@@ -50,6 +54,8 @@ export {
   docker,
   figma,
   git,
+  antd,
+  mui,
   html,
   javascript,
   mongodb,
@@ -57,6 +63,7 @@ export {
   reactjs,
   nextjs,
   redux,
+  topbongda,
   tailwind,
   typescript,
   threejs,
@@ -73,4 +80,5 @@ export {
   thirdweb,
   solodity,
   jewelry,
+  vietdev,
 };

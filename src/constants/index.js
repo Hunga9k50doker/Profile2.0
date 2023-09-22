@@ -27,9 +27,13 @@ import {
   priceguide,
   searchjob,
   cimigo,
+  topbongda,
   travel,
   threejs,
+  vietdev,
   jewelry,
+  antd,
+  mui,
 } from "../assets";
 
 export const navLinks = [
@@ -75,14 +79,14 @@ const technologies = [
   //   name: "HTML 5",
   //   icon: html,
   // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
+  {
+    name: "Antd Design",
+    icon: antd,
+  },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
   {
     name: "TypeScript",
     icon: typescript,
@@ -115,10 +119,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
+  {
+    name: "figma",
+    icon: figma,
+  },
   {
     name: "NextJS",
     icon: nextjs,
@@ -147,19 +151,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "FrontEnd Developer, Designer",
+    company_name: "VietDev",
+    icon: vietdev,
+    iconBg: "#111827",
+    date: "June 23 - September 23",
+    points: [
+      "Developing Topbongda website design mobile version using Next.js and other related technologies.",
+      "Design UI, collaborating with backend team to create high-quality products.",
+      "Optimize website performance, ensuring cross-browser compatibility.",
+      "SEO website, providing constructive feedback to other developers.",
+    ],
+  },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -190,21 +194,24 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -236,8 +243,8 @@ const projects = [
     source_code_link: "https://github.com/Hunga9k50doker/PriceGuild",
   },
   {
-    name: "Cimigo",
-    url: "https://www.cimigo.com/",
+    name: "Cimigo.com",
+    url: "https://cimigo.com/",
     description:
       "Websites for businesses and individuals. Those who wish to seek survey opinions from consumers for the purpose of growing their business.",
     tags: [
@@ -256,6 +263,32 @@ const projects = [
     ],
     image: cimigo,
     source_code_link: "https://github.com/Hunga9k50doker/Cimigo",
+  },
+  {
+    name: "Topbongda.com",
+    url: "https://topbongda.com/",
+    description:
+      "Football social network, where people interact, share, view match schedule information, and predict results.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "antd",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: topbongda,
+    source_code_link: "https://github.com/Hunga9k50doker/topbongda",
   },
   {
     name: "Jewelry website",
@@ -301,48 +334,27 @@ const projects = [
     image: travel,
     source_code_link: "https://github.com/Hunga9k50doker/Setail",
   },
-//   {
-//     name: "Crowdfunding",
-//     url: "https://crowdfunding-2uux.onrender.com/",
-//     description: "[Personal project] The crowdfunding web3",
-//     tags: [
-//       {
-//         name: "rect-js",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "third-web",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "solodity",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: crowdfunding,
-//     source_code_link: "https://github.com/Hunga9k50doker/cowdfunding",
-//   },
-  {
-    name: "Search Job",
-    url: "https://expo.dev/@hunga9k50doker/jobsift?serviceType=classic&distribution=expo-go",
-    description: "[Personal project] The app help searching for jobs near you. Apply job",
-    tags: [
-      {
-        name: "rect-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "expo",
-        color: "green-text-gradient",
-      },
-      {
-        name: "rapid-api",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: searchjob,
-    source_code_link: "https://github.com/Hunga9k50doker/app-job",
-  },
+  //   {
+  //     name: "Crowdfunding",
+  //     url: "https://crowdfunding-2uux.onrender.com/",
+  //     description: "[Personal project] The crowdfunding web3",
+  //     tags: [
+  //       {
+  //         name: "rect-js",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "third-web",
+  //         color: "green-text-gradient",
+  //       },
+  //       {
+  //         name: "solodity",
+  //         color: "pink-text-gradient",
+  //       },
+  //     ],
+  //     image: crowdfunding,
+  //     source_code_link: "https://github.com/Hunga9k50doker/cowdfunding",
+  //   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
