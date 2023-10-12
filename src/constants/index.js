@@ -288,7 +288,7 @@ const projects = [
       },
     ],
     image: topbongda,
-    source_code_link: "https://github.com/Hunga9k50doker/topbongda",
+    source_code_link: "https://github.com/Hunga9k50doker/topbongda_fe",
   },
   {
     name: "Jewelry website",
@@ -314,7 +314,7 @@ const projects = [
   },
   {
     name: "Travel website",
-    url: "https://setail.onrender.com",
+    url: "https://setsail.onrender.com",
     description:
       "[Personal project] A website allows users to search for information about tours, leave reviews, and manage records of tours they have booked. There is also a dashboard that allows admins to perform CRUD operations on the necessary information on the website",
     tags: [
