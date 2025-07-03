@@ -156,7 +156,7 @@ const experiences = [
     company_name: "VietDev",
     icon: vietdev,
     iconBg: "#111827",
-    date: "June 23 - September 23",
+    date: "June 23 - June 24",
     points: [
       "Developing Topbongda website design mobile version using Next.js and other related technologies.",
       "Design UI, collaborating with backend team to create high-quality products.",
@@ -164,32 +164,19 @@ const experiences = [
       "SEO website, providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Web Developer",
+    company_name: "Frelancer",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Now",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+ 
 ];
 
 const testimonials = [
@@ -291,13 +278,13 @@ const projects = [
     source_code_link: "https://github.com/Hunga9k50doker/topbongda_fe",
   },
   {
-    name: "Jewelry website",
-    url: "https://jewelry.onrender.com/",
+    name: "Automarket",
+    url: "https://amautomarket.com/",
     description:
-      "[Personal project] A website allows users to search for information about jewelry, leave reviews, and manage records of tours they have order. There is also a dashboard that allows admins to perform CRUD operations on the necessary information on the website",
+      "[Personal project] A website allows users  find, buy, sell any sripts, tools automation.",
     tags: [
       {
-        name: "rectjs",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -305,34 +292,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "nestjs",
         color: "pink-text-gradient",
       },
     ],
     image: jewelry,
     source_code_link: "https://github.com/Hunga9k50doker/Shop-trang-suc",
-  },
-  {
-    name: "Travel website",
-    url: "https://setsail.onrender.com",
-    description:
-      "[Personal project] A website allows users to search for information about tours, leave reviews, and manage records of tours they have booked. There is also a dashboard that allows admins to perform CRUD operations on the necessary information on the website",
-    tags: [
-      {
-        name: "rectjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: travel,
-    source_code_link: "https://github.com/Hunga9k50doker/Setail",
   },
   //   {
   //     name: "Crowdfunding",
