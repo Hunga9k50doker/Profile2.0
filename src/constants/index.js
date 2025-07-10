@@ -10,6 +10,8 @@ import {
   reactjs as react,
   nextjs,
   redux,
+  automarketbg,
+  automarket,
   tailwind,
   nodejs,
   mongodb,
@@ -167,38 +169,36 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Frelancer",
-    icon: shopify,
+    icon: automarket,
     iconBg: "#383E56",
-    date: "Jan 2023 - Now",
+    date: "June 2024 - Now",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Search for customers- Receive and discuss customer requirements, provide quotes",
+      "Develop an implementation plan, analyze by each stage",
+      "Create a procedure for checking and evaluating the completion level of the project",
+      "Hand over the completed product, maintain the product.",
     ],
   },
- 
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -208,32 +208,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "PriGuide.Card",
-    url: "https://www.priceguide.cards/",
-    description:
-      "The website allows users to search and build their temp collections. Exchange of information, chat, which can lead to face-to-face exchanges",
+    name: "Automarket",
+    url: "https://amautomarket.com/",
+    description: "[Personal project] A website allows users  find, buy, sell any sripts, tools automation.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "python",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "nestjs",
         color: "pink-text-gradient",
       },
     ],
-    image: priceguide,
-    source_code_link: "https://github.com/Hunga9k50doker/PriceGuild",
+    image: automarketbg,
+    source_code_link: null,
   },
   {
     name: "Cimigo.com",
     url: "https://cimigo.com/",
-    description:
-      "Websites for businesses and individuals. Those who wish to seek survey opinions from consumers for the purpose of growing their business.",
+    description: "Websites for businesses and individuals. Those who wish to seek survey opinions from consumers for the purpose of growing their business.",
     tags: [
       {
         name: "reactjs",
@@ -252,10 +250,31 @@ const projects = [
     source_code_link: "https://github.com/Hunga9k50doker/Cimigo",
   },
   {
+    name: "PriGuide.Card",
+    url: "https://www.priceguide.cards/",
+    description: "The website allows users to search and build their temp collections. Exchange of information, chat, which can lead to face-to-face exchanges",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: priceguide,
+    source_code_link: "https://github.com/Hunga9k50doker/PriceGuild",
+  },
+
+  {
     name: "Topbongda.com",
     url: "https://topbongda.com/",
-    description:
-      "Football social network, where people interact, share, view match schedule information, and predict results.",
+    description: "Football social network, where people interact, share, view match schedule information, and predict results.",
     tags: [
       {
         name: "nextjs",
@@ -277,49 +296,6 @@ const projects = [
     image: topbongda,
     source_code_link: "https://github.com/Hunga9k50doker/topbongda_fe",
   },
-  {
-    name: "Automarket",
-    url: "https://amautomarket.com/",
-    description:
-      "[Personal project] A website allows users  find, buy, sell any sripts, tools automation.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nestjs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jewelry,
-    source_code_link: "https://github.com/Hunga9k50doker/Shop-trang-suc",
-  },
-  //   {
-  //     name: "Crowdfunding",
-  //     url: "https://crowdfunding-2uux.onrender.com/",
-  //     description: "[Personal project] The crowdfunding web3",
-  //     tags: [
-  //       {
-  //         name: "rect-js",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "third-web",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "solodity",
-  //         color: "pink-text-gradient",
-  //       },
-  //     ],
-  //     image: crowdfunding,
-  //     source_code_link: "https://github.com/Hunga9k50doker/cowdfunding",
-  //   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

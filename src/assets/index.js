@@ -32,8 +32,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import pixelcent from "./company/pixelcent.png";
 import vietdev from "./company/vietdev.png";
+import automarket from "./company/automarket.svg";
 
 import priceguide from "./p_01.jpg";
+import automarketbg from "./automarket.png";
 import cimigo from "./p_02.png";
 import travel from "./p_03.jpg";
 import searchjob from "./p_04.jpg";
@@ -55,6 +57,7 @@ export {
   figma,
   git,
   antd,
+  automarketbg,
   mui,
   html,
   javascript,
@@ -81,4 +84,5 @@ export {
   solodity,
   jewelry,
   vietdev,
+  automarket,
 };
